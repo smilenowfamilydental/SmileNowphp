@@ -1,0 +1,9 @@
+[15-Apr-2020 16:13:22 America/Chicago] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (addAnAddress to): k.onovako.li.t.@gmail.com' in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php:908
+Stack trace:
+#0 [internal function]: PHPMailer->addAnAddress('to', 'k.onovako.li.t....', 'Recepient Name')
+#1 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(879): call_user_func_array(Array, Array)
+#2 /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php(798): PHPMailer->addOrEnqueueAnAddress('to', 'k.onovako.li.t....', 'Recepient Name')
+#3 /home3/gramstec/smilenowfamilydental.com/js/mail.php(27): PHPMailer->addAddress('k.onovako.li.t....', 'Recepient Name')
+#4 /home3/gramstec/smilenowfamilydental.com/js/contact-form.php(108): smtpmailer('k.onovako.li.t....', 'sravangereddy@g...', 'Sravan Gereddy', 'Contact Request', 'You have a cont...')
+#5 {main}
+  thrown in /home3/gramstec/smilenowfamilydental.com/js/PHPMailer-master/class.phpmailer.php on line 908
